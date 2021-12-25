@@ -1,0 +1,19 @@
+.loading-tile {
+    background:#FFF;
+    border-radius:10px;
+    min-width:280px;
+    box-shadow: 0 0 20px #000;
+}
+.loading-tile__header {
+    border-bottom: 1px solid #555;
+    background-color: #AAA;
+    color:#111;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    text-align:center;
+    padding:10px;
+}
+.loading-tile__content {
+    padding:10px;
+    text-align:center;
+}

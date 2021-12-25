@@ -1,0 +1,30 @@
+.not-found {
+    background:#FFF;
+    border-radius:10px;
+    min-width:280px;
+    box-shadow: 0 0 20px #000;
+}
+.not-found__title {
+    text-align:center;
+    border-bottom: 1px solid #555;
+    background-color: #AAA;
+    color:#111;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    padding:10px;
+    font-size:24px;
+}
+.not-found__text {
+    text-align:center;
+    padding:10px;
+    font-size:18px;
+}
+.not-found__annotation {
+    padding:10px;  
+    font-size:12px;  
+    color:#555
+}
+.not-found__link {
+    color:#3CB371;
+    text-decoration:none;
+}
