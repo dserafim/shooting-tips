@@ -1,0 +1,60 @@
+.tip-tile {
+    background:#FFF;
+    border-radius:10px;
+    min-width:280px;
+    box-shadow: 0 0 20px #000;
+    transition: opacity 200ms;
+    opacity:1;
+}
+.tip-tile__hidden {
+    opacity:0;
+}
+.tip-tile__header {
+    border-bottom: 1px solid #555;
+    background-color: #AAA;
+    color:#111;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.tip-tile__content {
+    padding:10px;
+    text-align:center;
+}
+.tip-tile__text {
+    font-size:18px;
+    word-wrap: normal;
+}
+.tip-tile__refresh {
+    display:block;
+    width: 15px;
+    height: 15px;
+    background: url('../assets/ico-refresh.svg') no-repeat center center transparent;
+    background-size: contain;
+    cursor: pointer;
+}
+@media screen and (min-width:767px) {
+    .tip-tile {
+        width:500px;
+    } 
+    .tip-tile__text {
+        font-size:24px;
+    }
+    .tip-tile__refresh {
+        width: 20px;
+        height: 20px;
+
+    }
+}
+@media screen and (min-width:1200px) {
+    .tip-tile {
+        width:900px;
+    } 
+    .tip-tile__text {
+        font-size:36px;
+    }
+}

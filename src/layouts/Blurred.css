@@ -1,0 +1,29 @@
+.layout-blurred {
+    display:flex; 
+    flex-direction:column; 
+    height:100vh;
+}
+.layout-blurred:before {
+    content:"";
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index:-1;
+    display:block;
+    background:url('../assets/background.jpg') no-repeat center center transparent;
+    background-size:cover;
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+}
+.layout-blurred__content {
+    width:60%;
+    min-width:320px;
+    margin:0 auto;
+    align-items: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    background:transparent;
+}
